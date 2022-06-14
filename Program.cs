@@ -30,9 +30,18 @@ while(!quit) {
     } else if(choice == "4") {
         //step 4 goes here
     } else if(choice == "5") {
-        //step 5 goes here
+        //Step 5: Display the sum of integers
+        int sum = 0;
+        for(int i = 0 ; i < values.Length ; i++){
+            sum = sum + values[i];
+        }
+        Console.WriteLine(sum);
     } else if(choice == "6") {
-        //step 6 goes here
+        for(int i = 0 ; i < values.Length ; i++){
+            if(values[i] % 3 == 0) {
+                Console.WriteLine(values[i]);
+            }
+        }
     } else if(choice == "7") { 
         quit = true;
     } else {
