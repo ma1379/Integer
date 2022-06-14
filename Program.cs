@@ -28,7 +28,9 @@ while(!quit) {
     } else if(choice == "3") {
         //step 3 goes here
     } else if(choice == "4") {
-        //step 4 goes here
+        for (int i = 0; i < values.length;i++) {
+            Console.WriteLine(values[i*5])
+        }
     } else if(choice == "5") {
         //step 5 goes here
     } else if(choice == "6") {
