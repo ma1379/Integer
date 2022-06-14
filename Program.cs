@@ -24,9 +24,19 @@ while(!quit) {
         Console.WriteLine( values[i]);
         }
     } else if(choice == "2") {
-        //step 2 goes here
+        for(int i=0;i<values.Length;i++){
+            if(values[i]%2==0)
+            {
+                Console.WriteLine(values[i]);
+            }
+        }
     } else if(choice == "3") {
-        //step 3 goes here
+        for(int i=0;i<values.Length;i++){
+            if(values[i]%2!=0)
+            {
+                Console.WriteLine(values[i]);
+            }
+        }
     } else if(choice == "4") {
         //step 4 goes here
     } else if(choice == "5") {
